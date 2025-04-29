@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Dépôt Poisson Fumé</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Notre Menu</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="panier.html">Panier</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="produits">
+      <div class="produit">
+        <img src="images/fumé1.jpg" alt="Poisson Fumé 1">
+        <p>Poisson Fumé - 350000 FC</p>
+        <button onclick="ajouterPanier('Poisson Fumé', 350000)">Ajouter au panier</button>
+      </div>
+      <div class="produit">
+        <img src="images/fumé2.jpg" alt="Poisson Salé">
+        <p>Poisson Salé - 83000 FC</p>
+        <button onclick="ajouterPanier('Poisson Salé', 83000)">Ajouter au panier</button>
+      </div>
+      <div class="produit">
+        <img src="images/fumé3.jpg" alt="Filet Fumé">
+        <p>Filet Fumé - 100000 FC</p>
+        <button onclick="ajouterPanier('Filet Fumé', 100000)">Ajouter au panier</button>
+      </div>
+      <div class="produit">
+        <img src="images/fumé4.jpg" alt="Poisson Séché">
+        <p>Poisson Séché - 150000 FC</p>
+        <button onclick="ajouterPanier('Poisson Séché', 150000)">Ajouter au panier</button>
+      </div>
+      <div class="produit">
+        <img src="images/fumé5.jpg" alt="Poisson Mixte">
+        <p>Poisson Mixte - 150000 FC</p>
+        <button onclick="ajouterPanier('Poisson Mixte', 150000)">Ajouter au panier</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
